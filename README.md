@@ -1,11 +1,11 @@
 Backend: API FOR MENTOR AND STUDENT ASSIGNING 
 
-  1. Description :
+  1. Overview :
 
        -  The backend for this project is developed using Node.js and Express, with MongoDB as the database.
        -  It includes APIs to manage mentors and students, as well as to handle their assignments.
 
-  2. APIs Overview :
+  3. APIs Overview :
     
        -  Create Mentor API
             
@@ -38,7 +38,7 @@ Backend: API FOR MENTOR AND STUDENT ASSIGNING
             Description: Retrieves the history of mentors for a particular student.
 
 
-  3. Backend Setup Process :
+  4. Backend Setup Process :
 
        -  Create an Express server : Use Express to handle HTTP requests and define routes.
 
