@@ -10,31 +10,37 @@ Backend: API FOR MENTOR AND STUDENT ASSIGNING
        -  Create Mentor API
             
             Method: POST /api/mentors
+          
             Description: Adds a new mentor to the system.
 
        -  Create Student API :
 
             Method: POST /api/students
+          
             Description: Adds a new student to the system.
 
        -  Assign Students to Mentor API
             
             Method: POST /api/mentors/:mentorId/assign
+          
             Description: Assigns multiple students to a mentor. Students already assigned to a mentor won’t appear in the list.
 
        -  Change Mentor for a Student API
 
             Method: POST /api/students/:studentId/change-mentor
+          
             Description: Reassigns a student to a new mentor.
 
        -  Get Students for a Mentor API
           
             Method: GET /api/mentors/:mentorId/students
+          
             Description: Retrieves all students assigned to a specific mentor.
 
        -  Get Previous Mentors for a Student API
 
             Method: GET /api/students/:studentId/previous-mentors
+          
             Description: Retrieves the history of mentors for a particular student.
 
 
